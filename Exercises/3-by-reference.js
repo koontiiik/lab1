@@ -1,7 +1,7 @@
 'use strict';
 
 const inc = (obj) => {
-  console.log(obj);
+  obj.n++;
 };
 
 module.exports = { inc };
